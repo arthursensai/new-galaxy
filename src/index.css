@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply font-custom;
-    
+@layer base {
+    body {
+      @apply font-custom;
+    }
 }
+
 
 @font-face {
     font-family: 'raleway';
