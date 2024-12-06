@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-custom;
+    
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('./assets/fonts/raleway.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
