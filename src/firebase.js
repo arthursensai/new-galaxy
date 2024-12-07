@@ -31,3 +31,19 @@ export const getUserData = async (path) => {
     throw error;
   }
 };
+
+export const getShopData = async (path) => {
+  try {
+    const dbRef = ref(db, path);
+    console.log(path);
+    const snapshot = await get(dbRef);
+    console.log(snapshot)
+    if (snapshot.exists()) {
+      return snapshot.val();
+    } else {
+      return null;
+    }
+  } catch (error) {
+    throw error;
+  }
+};

@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         'main-color': 'linear-gradient(135deg, #4e54c8, #8f94fb)',
+        'second-color': 'background: linear-gradient(135deg, #0C1445 ,#1A2980 ,#26408B);'
       },
       fontFamily: {
         custom: ['raleway', 'sans-serif'],

@@ -33,7 +33,7 @@ const UserDataDisplay = ({ data }) => {
         
       </div>
     );
-  };
+};
 
 const Bank = () => {
   const [nickname, setNickname] = useState('');
@@ -57,6 +57,7 @@ const Bank = () => {
     }
 
     setLoading(true);
+    
     try {
       const data = await getUserData(`planets/${selectedPlanet}/${nickname}`);
       if (data) {
@@ -86,7 +87,7 @@ const Bank = () => {
           <select 
             value={selectedPlanet}
             onChange={(e) => setSelectedPlanet(e.target.value)}
-            className="border border-black w-3/12 p-2 rounded hover:scale-[1.02] focus:scale-[1.02] transition-transform"
+            className="border border-black w-5/12 p-2 rounded hover:scale-[1.02] focus:scale-[1.02] transition-transform"
           >
             <option value="">Select a planet</option>
             <option value="jupiter">Jupiter</option>
@@ -96,15 +97,14 @@ const Bank = () => {
             <option value="neptune">Neptune</option>
           </select>
           <button 
-  onClick={handleSearch} 
-  disabled={loading}
-  className="border border-black w-1/12 flex items-center justify-center rounded hover:scale-110 active:scale-90 transition-transform"
->
-  {loading ? '...' : (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-  )}
-</button>
-  
+          onClick={handleSearch} 
+          disabled={loading}
+          className="border border-black w-1/12 flex items-center justify-center rounded hover:scale-110 active:scale-90 transition-transform"
+        >
+          {loading ? '...' : (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          )}
+        </button>
     </div>
 
         {error && (
