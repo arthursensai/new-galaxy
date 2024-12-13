@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react'
-import { getShopData } from './firebase.js';
+import { getShopData } from '../firebase.js';
 
 const ShopDataDisplay = ({ data }) => {
     const handleWhatsAppRedirect = (item) => {
         const phoneNumber = '+963992984704';
-        // Construct Arabic message
         const message = `مرحبًا، أود طلب المنتج: ${item.name}\n\nتفاصيل المنتج:\n${item.description}\n\nالسعر: ${item.price} نجمة`;
         
         const encodedMessage = encodeURIComponent(message);
@@ -95,12 +94,10 @@ const Shop = () => {
             const shopPath = '/shop';
             const shopData = await getShopData(shopPath);
             
-            // Convert Realtime Database object to array
             if (shopData) {
                 const dataArray = Object.keys(shopData).map(key => ({
                     id: key,
                     ...shopData[key],
-                    // Fallback to 16:9 aspect ratio if no dimensions provided
                     width: shopData[key].width || 16,
                     height: shopData[key].height || 9
                 }));

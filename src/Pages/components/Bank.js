@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getUserData } from './firebase.js';
+import { getUserData } from '../firebase.js';
 
 const UserDataDisplay = ({ data }) => {
     return (
@@ -17,7 +17,7 @@ const UserDataDisplay = ({ data }) => {
         </div>
         
         <div className="grid grid-cols-2 gap-4">
-          {Object.entries(data).map(([key, value], index) => {
+          {Object.entries(data).map(([key, value]) => {
             if (['nickname', 'planet', 'username'].includes(key)) return null;
             return (
               <div 

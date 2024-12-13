@@ -1,0 +1,201 @@
+{
+  "admins": {
+  "gu0aexdsHrPF4hMvUmKpVhvVrBG2": {
+    "allowed": true
+    }
+  },
+  "planets": {
+    "earth": {
+      "test": 1
+    },
+    "mars": {
+      "test": 1
+    },
+    "mercury": {
+      "test": 1
+    },
+    "neptune": {
+      "test": 1
+    },
+    "saturn": {
+      "test": 1
+    },
+    "sun": {
+      "test": 1
+    },
+    "venus": {
+      "test": 1
+    }
+  },
+  "shop": {
+    "الحماية": {
+      "cover": "https://i.ibb.co/Nyt7t77/2f4c0a3536fb283f9d781aa4f0b67ab1.jpg",
+      "description": "تكون محمي من سلع لمدة يوم",
+      "price": "150",
+      "title": "الحماية"
+    },
+    "الدرع الفولاذي": {
+      "cover": "https://i.ibb.co/G2b9mKJ/72360fcf8b351a0aa69619be43cf01d9.jpg",
+      "description": "يصبح لديك حماية لمدة أسبوع ولا يستطيع احد كسره",
+      "price": "800",
+      "title": "الدرع الفولاذي"
+    },
+    "الغاء انذار عضو": {
+      "cover": "https://i.ibb.co/sQFDZP3/f26a2d01b69a11fcf4062f1dd7c25855.jpg",
+      "description": "تستطيع الغاء انذار عضو",
+      "price": "50",
+      "title": "الغاء انذار عضو"
+    },
+    "الغاء انذار قائد": {
+      "cover": "https://i.ibb.co/zxb5V2S/03ae9a088fafb8c4e8da09c49f18b9e1.jpg",
+      "description": "تستطيع الغاء انذار قائد",
+      "price": "100",
+      "title": "الغاء انذار قائد"
+    },
+    "الغاء انذار مشرف": {
+      "cover": "https://i.ibb.co/0h83Fpr/69431edbe1d87c76b057ad7956bc9cd6.jpg",
+      "description": "تستطيع الغاء انذار مشرف",
+      "price": "80",
+      "title": "الغاء انذار مشرف"
+    },
+    "الغاء انذار نائب قائد": {
+      "cover": "https://i.ibb.co/K6xhVxx/089ff4dfdf9365459612b028bd737466.jpg",
+      "description": "تستطيع الغاء انذار نائب قائد",
+      "price": "100",
+      "title": "الغاء انذار نائب قائد"
+    },
+    "الغاء انذار وزير": {
+      "cover": "https://i.ibb.co/10Mh8y0/85e681d64b1d418557988888e534c447.jpg",
+      "description": "تستطيع الغاء انذار وزير",
+      "price": "150",
+      "title": "الغاء انذار وزير"
+    },
+    "الغاء انذر نخبة": {
+      "cover": "https://i.ibb.co/rb8MzkV/ab27b301ec2ab4fcee927f24b39b1b0e.jpg",
+      "description": "تستطيع الغاء انذار نخبة",
+      "price": "140",
+      "title": "الغاء انذر نخبة"
+    },
+    "تبادل لقب اسبوع": {
+      "cover": "https://i.ibb.co/YBw1CNt/df68d103873789732380605084975568.jpg",
+      "description": "تستطيع تبادل لقب مع صديقك لمدة أسبوع شرط عدم حظر",
+      "price": "100",
+      "title": "تبادل لقب اسبوع"
+    },
+    "تبادل لقب دائم": {
+      "cover": "https://i.ibb.co/dtrY16k/e5d3ec193c048c7b037ef73355fb3b0d.jpg",
+      "description": "تستطيع تبادل لقب مع صديقك بشكل دائم شرط عدم حظر",
+      "price": "190",
+      "title": "تبادل لقب دائم"
+    },
+    "تغير اسم الكوكب يوم": {
+      "cover": "https://i.ibb.co/C7WHvqh/051f7717224f7de12f0e04eb506d1e35.jpg",
+      "description": "تستطيع تغير اسم الكوكب يوم",
+      "price": "30",
+      "title": "تغير اسم الكوكب يوم"
+    },
+    "تغير اسم ثلاث ايام": {
+      "cover": "https://i.ibb.co/FYHySPx/c67e6bcdf6e0577fcfe027ce8a9e0346.jpg",
+      "description": "تستطيع تغير اسم الكوكب بشكل موقت لمدة ثلاث ايام",
+      "price": "100",
+      "title": "تغير اسم ثلاث ايام"
+    },
+    "تغير صورة ثلاث ايام": {
+      "cover": "https://i.ibb.co/LCQLxxp/f3a745e74d66ae01c82133b9c9403bb9.jpg",
+      "description": "تستطيع تغير صورة الكوكب بشكل موقت لمدة ثلاث ايام",
+      "price": "150",
+      "title": "تغير صورة ثلاث ايام"
+    },
+    "تغير صورة كوكب يوم": {
+      "cover": "https://i.ibb.co/9rL0X18/be3433d0876b4ec5cf41bbc66b678eb8.jpg",
+      "description": "تستطيع تغير صورة الكروب بشكل موقت لمدة يوم",
+      "price": "50",
+      "title": "تغير صورة كوكب يوم"
+    },
+    "حجز لقب اسبوع": {
+      "cover": "https://i.ibb.co/CKnvFnp/2f6b3a4313981bad86ee1c9a9b79e399.jpg",
+      "description": "تستطيع ان تحجز لقب اسبوع ضمن كوكبك",
+      "price": "250",
+      "title": "حجز لقب اسبوع"
+    },
+    "حجز لقب شهر": {
+      "cover": "https://i.ibb.co/5vZLFkd/976535522764ae19aa9cf048ca613026.jpg",
+      "description": "تستطيع حجز لقب شهر ضمن كوكبك",
+      "price": "1000",
+      "title": "حجز لقب شهر"
+    },
+    "طرد ثلاث ساعات": {
+      "cover": "https://i.ibb.co/YdmkWXR/8c9d65caef175f6e3a896f5235752805-1.jpg",
+      "description": "تستطيع طرد اي شخص تحت رتبة القائد تستعمل مرة أسبوع",
+      "price": "300",
+      "title": "طرد ثلاث ساعات"
+    },
+    "طرد ساعة": {
+      "cover": "https://i.ibb.co/Jq0PSd0/6c4818ef8ac0bdd55b31d01fa51eb421.jpg",
+      "description": "تستطيع طرد اي شخص تحت رتبة القائد تستعمل مرة أسبوع",
+      "price": "100",
+      "title": "طرد ساعة"
+    },
+    "كاسر الحماية": {
+      "cover": "https://i.ibb.co/Ws3Wjxh/177aedcd28c5f9733725b7874313f30a.jpg",
+      "description": "تستطيع كسر حماية اي شخص",
+      "price": "500",
+      "title": "كاسر الحماية"
+    },
+    "مانع المشاركة": {
+      "cover": "https://i.ibb.co/WBw3mgR/dd318785c05ff85877525584e5651bab.jpg",
+      "description": "تستطيع منع شخص من المشاركة في المسابقات ساعتان",
+      "price": "150",
+      "title": "مانع المشاركة"
+    },
+    "مانع شراء": {
+      "cover": "https://i.ibb.co/v3xPfT5/05012127448e419d3d192702b4185011.jpg",
+      "description": "تستطيع منع شخص من شراء لمدة ساعتين",
+      "price": "200",
+      "title": "مانع شراء"
+    },
+    "مانع طرد": {
+      "cover": "https://i.ibb.co/LCQLxxp/f3a745e74d66ae01c82133b9c9403bb9.jpg",
+      "description": "تستطيع تقليص ساعة من طرد",
+      "price": "100",
+      "title": "مانع طرد"
+    },
+    
+    "تغير اجباري": {
+      "cover": "https://i.ibb.co/sKZkPHL/7d0db7ea51f4341474a73ab9a864d385.jpg",
+      "description": "يمكنك تغير لقب صديقك بشكل احباري",
+      "price": 200,
+      "title": "تغير لقب اجباري"
+    },
+    "تغير اسبوع": {
+      "cover": "https://i.ibb.co/Nt9YLf1/bb4b0727a2218575b892c410563a0769.jpg",
+      "description": "تستطيع تغير لقبك لمدة اسبوع كامل",
+      "price": 100,
+      "title": "تغير لقب اسبوع"
+    },
+    "تغير دائم": {
+      "cover": "https://i.ibb.co/zxb5V2S/03ae9a088fafb8c4e8da09c49f18b9e1.jpg",
+      "description": "تستطيع تغير لقبك بشكل دائم",
+      "price": 200,
+      "title": "تغير لقب دائم"
+    },
+    "تغيرثلاث يوم": {
+      "cover": "https://i.ibb.co/4mGfLcJ/4f0d992d1eb1c772c82d4903c042eab0.jpg",
+      "description": "تستطيع تغير لقبك بشكل موقت لمدة ثلاث ايام",
+      "price": 50,
+      "title": "تغير لقب ثلاث يوم"
+    },
+    "حظر لقب": {
+      "cover": "https://i.ibb.co/T0B97fr/06185bf280dfa6e265ad3c1f16d380d5.jpg",
+      "description": "تستطيع حظر لقبك ولا يستطيع احد استعماله",
+      "price": "10000",
+      "title": "حظر لقب"
+    },
+    "فك حظر لقب": {
+      "cover": "https://i.ibb.co/Yj19HTM/1248867921eeaca67453dc901d488374.jpg",
+      "description": "تستطيع فك حظر لقب اي شخص",
+      "price": "12000",
+      "title": "فك حظر لقب"
+    }
+  }
+}
